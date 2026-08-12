@@ -7,19 +7,84 @@
     <title>Portafolio
     </title>
 </head>
+<style>
+    body {
+    font-family: Arial, sans-serif;background-color: #f0f4f8;margin: 0;padding: 0;color: #333333;
+    }
+    header {
+    background-color: #0e3574;color: #ffffff; text-align: center;padding: 20px;
+    }
+    nav {
+    background-color: #010811;text-align: center; padding: 10px;
+    }
+    nav a {
+    color: #ffffff;text-decoration: none;padding: 8px 16px;display: inline-block;
+    }
+    nav a:hover {
+    background-color: #0ea5e9;border-radius: 6px;
+    }
+    main{
+    display:flex;
+    }
+    aside {
+    width: 20%;float: left;background-color: #ffffff;padding: 20px;box-sizing: border-box;min-height: 450px;
+    }
+    aside h3 {
+    color: #1e293b;border-bottom: 2px solid #0ea5e9;padding-bottom: 5px;
+    }
+    aside ul {
+    list-style-type: none;padding: 0;
+    }
+    aside li {margin: 8px 0;
+    }
+    aside a {color: #475569;text-decoration: none;display: inline-block;padding: 6px;
+    }
+    aside a:hover {
+    background-color: #f1f5f9;color: #0ea5e9;padding-left: 12px;
+    }
+    section {
+    width: 80%;float: left;padding: 15px;box-sizing: border-box;
+    }
+    iframe {
+    width: 100%;height: 500px;border: 2px solid #334155;background-color: #ffffff;
+    }
+    footer {
+    background-color: #1e293b;color: #ffffff;text-align: center;padding: 15px;
+    }
+    footer span {
+    color: #0ea5e9;font-weight: bold;
+    }
+</style>
 <body>
+    <header>
     <h1>Portafolio de Informatica</h1>
     <p>El que estudia duda de sus conocimientos...</p>
     <hr> 
     <h3>¿Quiénes Somos? </h3>
     <p>Somos Vicky y Nacho, somos alumnos de tercer año de secundario. En esta página recompilaremos nuestros trabajos realizados en la materia. </p>
-    <h3>Ejercicios y desafíos de clase</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://github.com/vickycm0807/Inform-tic" target="_blank">GitHub</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1nBkfZQMcqylNhaVmGhCWApScX6L8WTGN?usp=drive_link" target="_blank">Drive</a></li>
+        </ul>
+    </nav>
+    <main>
+        <aside>
+            <h3>Ejercicios y desafíos de clase</h3>
     <ul>
         <li><a href="./pages/listas (1).html">Ejercicio 1:</a>Listas</li>
         <li><a href="./pages/tabla1.html">Ejercicio2:</a>Tablas</li>
         <li><a href="./pages/tienda.html"> Ejercicio 3:</a>Tienda</li>
         <li><a href="./pages/diario.html">Ejercicio 4:</a>Inframes</li>
     </ul>
-    <img src="./img/Tecnologias.png" alt="tecnologías usadas">
+        </aside>
+        <section>
+            <iframe name="visor" src="./pages/listas (1).html"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>Equipo (15): Victoria Camaño 3C e Ignacio Ramos 3C</p>
+    </footer>
 </body>
 </html>
